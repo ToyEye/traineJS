@@ -323,3 +323,36 @@
 //   console.log(mango.blacklistedEmails); // 'poly@mail.com'
 //   console.log(mango.isBlacklisted('mango@mail.com')); //  false
 //   console.log(mango.isBlacklisted('poly@mail.com')); // true 
+
+// const users = [
+//   { name: 'Mango', isActive: true },
+//   { name: 'Poly', isActive: false },
+//   { name: 'Ajax', isActive: true },
+//   { name: 'Chelsey', isActive: false },
+// ];
+
+// const filter = users.filter(user => user.isActive);
+
+// const users = [
+//   { id: '000', name: 'Mango', isActive: true },
+//   { id: '001', name: 'Poly', isActive: false },
+//   { id: '002', name: 'Ajax', isActive: true },
+//   { id: '003', name: 'Chelsey', isActive: false },
+// ];
+
+// //  В данном случае "002"
+// const user = users.find(user => user.id === "002");
+// console.log(user);
+
+// const getUserById = (arr, id) => arr.find(x => x.id === id);
+// console.log(getUserById(users, '001'));
+// console.log(getUserById(users, '003'));
+
+
+
+const numbers = [20, 35, 5, 27, 68, 59, 34];
+
+const filterNumb = numbers.filter(number => number > 27);
+
+
+console.log(filterNumb);
