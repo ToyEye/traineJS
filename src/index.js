@@ -27,3 +27,28 @@ function sendForm(evt) {
 }
 
 refs.sendBtnRef.addEventListener('click', sendForm);
+
+// const promis = new Promise((resolve, reject) => {
+//     const fullFill = Math.random() > 0.5;
+//     setTimeout(() => {
+//         if (fullFill) {
+//             resolve('Все кулл');
+//         }
+//         reject('Ошибка');
+//     }, 1000);
+// })
+// promis.then(onResult)
+//     .then(
+//         () => {
+//             console.log('Вызвали вторую функцию');
+//         })
+//     .then(()=>{console.log('Все гуд')})
+//     .catch(OnError);
+
+// function onResult(result) {
+//     console.log(result);
+// }
+
+// function OnError(error) {
+//     console.log(error);
+// }
